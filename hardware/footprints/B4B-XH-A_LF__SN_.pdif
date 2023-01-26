@@ -1,0 +1,221 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "B4BXHALFSN"
+      (family "CON")
+      (package "JST_B4BXHALFSN")
+      (attribute "PKG_TYPE" "JST_B4BXHALFSN")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "SNAPEDA_PN" "B4B-XH-A(LF)(SN)")
+      (attribute "PARTREV" "N/A")
+      (attribute "MANUFACTURER" "JST_Sales_America_Inc.")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "7_mm")
+      (gate
+        (swap 1)
+        (symbol "B4BXHALFSN")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+        (pin "3" 3 (type PS))
+        (pin "4" 4 (type PS))
+      )
+    )
+    (symbol "B4BXHALFSN"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 250.0) (pt 50.0 300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 250.0) (pt 0.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 200.0) (pt 0.0 -150.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -150.0) (pt 50.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 50.0 -200.0) (pt 300.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 300.0 -200.0) (pt 300.0 300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 300.0 300.0) (pt 50.0 300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 200.0) (pt 75.0 200.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt 25 212.5) (pt 87.5 212.5) (pt 87.5 187.5) (pt 25 187.5) (pt 25 212.5) (closed))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 100.0) (pt 75.0 100.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt 25 112.5) (pt 87.5 112.5) (pt 87.5 87.5) (pt 25 87.5) (pt 25 112.5) (closed))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 0.0) (pt 75.0 0.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt 25 12.5) (pt 87.5 12.5) (pt 87.5 -12.5) (pt 25 -12.5) (pt 25 12.5) (closed))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -100.0) (pt 75.0 -100.0))
+      )
+      (graphic
+        (stroke 1)
+        (path (pt 25 -87.5) (pt 87.5 -87.5) (pt 87.5 -112.5) (pt 25 -112.5) (pt 25 -87.5) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -200.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -200.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -200.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "JST_B4BXHALFSN"
+      (units THOU)
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -253.94 123.03) (pt -253.94 -123.03))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -253.94 -123.03) (pt 253.94 -123.03))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 253.94 -123.03) (pt 253.94 123.03))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 253.94 123.03) (pt -253.94 123.03))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt 244.09 113.19) (pt 244.09 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 244.09 -113.19) (pt -244.09 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -244.09 -113.19) (pt -244.09 113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -244.09 113.19) (pt 244.09 113.19))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -277.56 -20.67) (pt -269.69 -20.67))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt 244.09 113.19) (pt 244.09 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 244.09 -113.19) (pt -244.09 -113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -244.09 -113.19) (pt -244.09 113.19))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -244.09 113.19) (pt 244.09 113.19))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -277.56 -20.67) (pt -269.69 -20.67))
+        )
+      )
+      (leg 1 (pt -147.64 -20.67) (padstack 1))
+      (leg 2 (pt -49.21 -20.67) (padstack 2))
+      (leg 3 (pt 49.21 -20.67) (padstack 3))
+      (leg 4 (pt 147.64 -20.67) (padstack 4))
+      (padstack 1
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (square 59.37))
+        (pad (layer INNER) (square 59.37))
+        (pad (layer BCOP) (square 59.37))
+        (pad (layer TRES) (square 63.31))
+        (pad (layer BRES) (square 63.31))
+      )
+      (padstack 2
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 63.31))
+        (pad (layer BRES) (round 63.31))
+      )
+      (padstack 3
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 63.31))
+        (pad (layer BRES) (round 63.31))
+      )
+      (padstack 4
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 63.31))
+        (pad (layer BRES) (round 63.31))
+      )
+    )
+  )
+)

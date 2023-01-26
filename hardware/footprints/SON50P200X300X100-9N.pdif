@@ -1,0 +1,129 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "SON50P200X300X1009N"
+      (family "ANA")
+      (package "SON50P200X300X1009N")
+      (attribute "PKG_TYPE" "SON50P200X300X1009N")
+    )
+    (package "SON50P200X300X1009N"
+      (units THOU)
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -82.87 49.21) (pt -82.87 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -82.87 -49.21) (pt 82.87 -49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 82.87 -49.21) (pt 82.87 49.21))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 82.87 49.21) (pt -82.87 49.21))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (circle (pt -103.74 30.71) (pt -95.87 30.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -59.06 47.24) (pt 59.06 47.24))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -59.06 -47.24) (pt 59.06 -47.24))
+        )
+      )
+      (layer TPST
+        (graphic
+          (stroke 1)
+          (path (pt -21.16 18.99) (pt 21.16 18.99) (pt 21.16 -18.99) (pt -21.16 -18.99) (pt -21.16 18.99) (closed))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -59.06 39.37) (pt 59.06 39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -59.06 -39.37) (pt 59.06 -39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -59.06 39.37) (pt -59.06 -39.37))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 59.06 39.37) (pt 59.06 -39.37))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -103.74 30.71) (pt -95.87 30.71))
+        )
+      )
+      (leg 1 (pt -56.5 29.53) (padstack 1))
+      (leg 2 (pt -56.5 9.84) (padstack 2))
+      (leg 3 (pt -56.5 -9.84) (padstack 3))
+      (leg 4 (pt -56.5 -29.53) (padstack 4))
+      (leg 5 (pt 56.5 -29.53) (padstack 5))
+      (leg 6 (pt 56.5 -9.84) (padstack 6))
+      (leg 7 (pt 56.5 9.84) (padstack 7))
+      (leg 8 (pt 56.5 29.53) (padstack 8))
+      (leg 9 (pt 0 0) (padstack 9))
+      (padstack 1
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 5
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 6
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 7
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 8
+        (pad (layer TCOP) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TRES) (rectf 10.24 33.07 0 1.28 0))
+        (pad (layer TPST) (rectf 10.24 33.07 0 1.28 0))
+      )
+      (padstack 9
+        (pad (layer TCOP) (rectf 60.04 66.93 0 0.0 0))
+        (pad (layer TRES) (rectf 60.04 66.93 0 0.0 0))
+      )
+    )
+  )
+)

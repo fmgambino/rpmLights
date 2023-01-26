@@ -1,4 +1,4 @@
-# Writing all output to: Z:\media\fmgambino\DATOS\ELECTR??NICA GAMBINO\01 CLIENTES\99 EMMANUEL LOPEZ\rpmLights\hardware\rpmLigthsSinCotas.log
+# Writing all output to: D:\01 FERNANDO GAMBINO\00 ELECTR??NICA GAMBINO\00 CLIENTES\99 EMMANUEL LOPEZ\rpmLights\hardware\rpmLigthsSinCotas.log
 set pad_wire_necking on
 bus diagonal
 fanout 5
