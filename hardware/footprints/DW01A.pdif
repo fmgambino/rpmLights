@@ -1,0 +1,196 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "DW01A"
+      (family "ANA")
+      (package "SOT236")
+      (attribute "PKG_TYPE" "SOT236")
+      (attribute "MPN" "DW01A")
+      (attribute "VALUE" "DW01A")
+      (attribute "LCSC" "C351410")
+      (gate
+        (swap 1)
+        (symbol "DW01A")
+        (pin "CS" 2 (type IO))
+        (pin "GND" 6 (type PP))
+        (pin "OC" 3 (type IO))
+        (pin "OD" 1 (type IO))
+        (pin "TD" 4 (type IO))
+        (pin "VCC" 5 (type PP))
+      )
+    )
+    (symbol "DW01A"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -400 400) (pt 400 400) (pt 400 -400) (pt -400 -400) (pt -400 400) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -600.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -600.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -600.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "SOT236"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 6.0)
+          (path (pt 55.98 31.89) (pt 55.98 -31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt -55.98 -31.89) (pt -55.98 31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt -20.55 31.89) (pt 20.55 31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt -16.85 -31.89) (pt -20.55 -31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt 20.55 -31.89) (pt 16.85 -31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt -52.28 -31.89) (pt -55.98 -31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt 55.98 -31.89) (pt 52.28 -31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt 52.28 31.89) (pt 55.98 31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt -55.98 31.89) (pt -52.28 31.89))
+        )
+        (graphic
+          (stroke 5.0)
+          (circle (pt -43.31 -11.81) (pt -35.43 -11.81))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 6.0)
+          (path (pt 55.98 -31.89) (pt -55.98 -31.89))
+        )
+        (graphic
+          (stroke 6.0)
+          (path (pt -55.98 31.89) (pt 55.98 31.89))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt -47.24 -33.46) (pt -27.56 -33.46) (pt -27.56 -59.06) (pt -47.24 -59.06) (pt -47.24 -33.46) (closed))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt -9.84 -33.46) (pt 9.84 -33.46) (pt 9.84 -59.06) (pt -9.84 -59.06) (pt -9.84 -33.46) (closed))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt 27.56 -33.46) (pt 47.24 -33.46) (pt 47.24 -59.06) (pt 27.56 -59.06) (pt 27.56 -33.46) (closed))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt 27.56 59.06) (pt 47.24 59.06) (pt 47.24 33.46) (pt 27.56 33.46) (pt 27.56 59.06) (closed))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt -47.24 59.06) (pt -27.56 59.06) (pt -27.56 33.46) (pt -47.24 33.46) (pt -47.24 59.06) (closed))
+        )
+        (graphic
+          (stroke 1)
+          (path (pt -11.81 59.06) (pt 7.87 59.06) (pt 7.87 33.46) (pt -11.81 33.46) (pt -11.81 59.06) (closed))
+        )
+      )
+      (leg 1 (pt -37.4 -51.18) (padstack 1))
+      (leg 2 (pt 0 -51.18) (padstack 2))
+      (leg 3 (pt 37.4 -51.18) (padstack 3))
+      (leg 4 (pt 37.4 51.18) (padstack 4))
+      (leg 5 (pt 0 51.18) (padstack 5))
+      (leg 6 (pt -37.4 51.18) (padstack 6))
+      (padstack 1
+        (pad (layer TCOP) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TRES) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TPST) (rectf 21.65 47.24 0 0.0 90.0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TRES) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TPST) (rectf 21.65 47.24 0 0.0 90.0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TRES) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TPST) (rectf 21.65 47.24 0 0.0 90.0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TRES) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TPST) (rectf 21.65 47.24 0 0.0 90.0))
+      )
+      (padstack 5
+        (pad (layer TCOP) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TRES) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TPST) (rectf 21.65 47.24 0 0.0 90.0))
+      )
+      (padstack 6
+        (pad (layer TCOP) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TRES) (rectf 21.65 47.24 0 0.0 90.0))
+        (pad (layer TPST) (rectf 21.65 47.24 0 0.0 90.0))
+      )
+      (model DW01A.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

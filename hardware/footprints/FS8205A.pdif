@@ -1,0 +1,410 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "FS8205A"
+      (family "TRX")
+      (package "SOP65P640X1208N")
+      (description "N/A")
+      (attribute "PKG_TYPE" "SOP65P640X1208N")
+      (attribute "PARTREV" "1.7")
+      (attribute "MANUFACTURER" "Fortune_Semiconductor")
+      (attribute "STANDARD" "IPC_7351B")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "1.2mm")
+      (gate
+        (swap 1)
+        (symbol "FS8205A")
+        (pin "D12" 1 (type PS))
+        (pin "D12__1" 8 (type PS))
+        (pin "G1" 4 (type PS))
+        (pin "G2" 5 (type PS))
+        (pin "S1" 2 (type PS))
+        (pin "S1__1" 3 (type PS))
+        (pin "S2" 6 (type PS))
+        (pin "S2__1" 7 (type PS))
+      )
+    )
+    (symbol "FS8205A"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 -170.0) (pt -70.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 -200.0) (pt -70.0 -230.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 -75.0) (pt -70.0 -100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 -100.0) (pt -70.0 -125.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -70.0 -200.0) (pt 0.0 -200.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 -200.0) (pt 0.0 -300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 -275.0) (pt -70.0 -300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 -300.0) (pt -70.0 -325.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 -100.0) (pt -100.0 -300.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 -300.0) (pt -70.0 -300.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 -100.0) (pt 50.0 -180.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 -180.0) (pt 50.0 -300.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 -300.0) (pt 50.0 -300.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -70.0 -100.0) (pt 50.0 -100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 70.0 -180.0) (pt 50.0 -180.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 -180.0) (pt 30.0 -180.0))
+      )
+      (graphic
+        (stroke 6)
+        (fill NONE)
+        (circle (pt -14.14 -300) (pt 14.14 -300))
+      )
+      (graphic
+        (stroke 6)
+        (fill NONE)
+        (circle (pt 35.86 -100) (pt 64.14 -100))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt 50.0 -180.0)
+          (pt 30.0 -210.0)
+          (pt 70.0 -210.0)
+          (pt 50.0 -180.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt -60.0 -200.0)
+          (pt -20.0 -170.0)
+          (pt -20.0 -230.0)
+          (pt -60.0 -200.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 230.0) (pt -70.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 200.0) (pt -70.0 170.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 325.0) (pt -70.0 300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 300.0) (pt -70.0 275.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -70.0 200.0) (pt 0.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 125.0) (pt -70.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -70.0 100.0) (pt -70.0 75.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -100.0 300.0) (pt -100.0 100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 100.0) (pt -70.0 100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -70.0 300.0) (pt 50.0 300.0))
+      )
+      (graphic
+        (stroke 6)
+        (fill NONE)
+        (circle (pt -14.14 300) (pt 14.14 300))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt -60.0 200.0)
+          (pt -20.0 230.0)
+          (pt -20.0 170.0)
+          (pt -60.0 200.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 100.0) (pt 50.0 180.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 180.0) (pt 50.0 300.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 30.0 180.0) (pt 50.0 180.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 180.0) (pt 70.0 180.0))
+      )
+      (graphic
+        (stroke 1)
+        (fill SOLID)
+        (path
+          (pt 50.0 180.0)
+          (pt 70.0 210.0)
+          (pt 30.0 210.0)
+          (pt 50.0 180.0)
+          (closed)
+        )
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 300.0) (pt 0.0 200.0))
+      )
+      (graphic
+        (stroke 6)
+        (fill NONE)
+        (circle (pt 35.86 100) (pt 64.14 100))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 -100.0) (pt 50.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 0.0) (pt 50.0 100.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 50.0 0.0) (pt 100.0 0.0))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -200.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -200.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L100") (pt 0.0 -600.0) (rot 0) (mir 0) (visible true))
+        (name (pt 0.0 139.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L100") (pt 0.0 -700.0) (rot 0) (mir 0) (visible true))
+        (name (pt 0.0 139.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R270_U_L100") (pt 0.0 400.0) (rot 0) (mir 0) (visible true))
+        (name (pt -0.0 -139.37) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R270_U_L100") (pt 0.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -0.0 -139.37) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R90_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 0.0 100.0))
+      )
+    )
+    (symbol "PIN_R270_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -0.0 -100.0))
+      )
+    )
+    (package "SOP65P640X1208N"
+      (units THOU)
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -153.94 69.49) (pt 153.94 69.49))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -153.94 -69.49) (pt 153.94 -69.49))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -153.94 69.49) (pt -153.94 -69.49))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 153.94 69.49) (pt 153.94 -69.49))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 7.87)
+          (circle (pt -178.74 54.13) (pt -170.87 54.13))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -88.58 59.65) (pt 88.58 59.65))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -88.58 -59.65) (pt 88.58 -59.65))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 7.87)
+          (circle (pt -178.74 54.13) (pt -170.87 54.13))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -88.58 59.65) (pt 88.58 59.65))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -88.58 -59.65) (pt 88.58 -59.65))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -88.58 59.65) (pt -88.58 -59.65))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 88.58 59.65) (pt 88.58 -59.65))
+        )
+      )
+      (leg 1 (pt -113.39 38.39) (padstack 1))
+      (leg 2 (pt -113.39 12.8) (padstack 2))
+      (leg 3 (pt -113.39 -12.8) (padstack 3))
+      (leg 4 (pt -113.39 -38.39) (padstack 4))
+      (leg 5 (pt 113.39 -38.39) (padstack 5))
+      (leg 6 (pt 113.39 -12.8) (padstack 6))
+      (leg 7 (pt 113.39 12.8) (padstack 7))
+      (leg 8 (pt 113.39 38.39) (padstack 8))
+      (padstack 1
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (padstack 5
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (padstack 6
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (padstack 7
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (padstack 8
+        (pad (layer TCOP) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TRES) (rectf 15.75 61.42 0 1.97 0))
+        (pad (layer TPST) (rectf 15.75 61.42 0 1.97 0))
+      )
+      (model FS8205A.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
