@@ -1,0 +1,40 @@
+Categoría,Referencias,Valor,Código almacén,Coste unitario
+Condensadores,C1,0.1uF,C3011705,
+Condensadores,C2,0.1uF,C3011705,
+Condensadores,C3,10uF,C90544,
+Condensadores,C24,100nF,C77055,$0.01
+Condensadores,C25,100nF,C77055,$0.01
+Resistencias,R1,200m,C21190,
+Resistencias,R2,1k,C21190,
+Resistencias,R3,1k,C21190,
+Resistencias,R4,10k,C21190,
+Resistencias,R5,100,C21190,
+Resistencias,R6,1k,C21190,
+Resistencias,R7,10k,C21190,
+Resistencias,R8,1k,C21190,
+Resistencias,R9,1k,C21190,
+Resistencias,R10,1k,C21190,
+Resistencias,R11,10k,C21190,
+Integrados,U1,DW01,C917079,
+Integrados,U2,ATTINY8520SH,C89852,
+Integrados,U5,418117270901,,
+Integrados,U13,LD1117S33,C369933,$0.07
+Transistores,Q1,AO3400-SOT23,C332101,
+Transistores,Q2,FS8205A,C908265,
+Transistores,Q3,AO3400-SOT23,C332101,
+Diodos,D1,STPS160U,C86598,
+Diodos,D2,1N4148W,C444720,
+Diodos,D4,LED-WHITE,,
+Diodos,D5,LED-WHITE,,
+Diodos,D6,LED-AQUA,,
+Diodos,D7,LED-AQUA,,
+Miscelánea,BAT1,3V,C5239862,$0.06
+Miscelánea,BTN2,PRV,C406151,$0.06
+Miscelánea,BTN3,OK,C406151,$0.06
+Miscelánea,BTN4,NXT,C406151,$0.06
+Miscelánea,CHG,LED-GREEN,C434449,
+Miscelánea,CONN1,ISCP CONN EG,C5144876,
+Miscelánea,CONN SIL,ISCP CONN EG,C5144876,
+Miscelánea,DONE,LED-RED,C131281,
+Miscelánea,J1,USB TYPE C,C309349,$0.50
+Miscelánea,J2,TP4056,C725790,
